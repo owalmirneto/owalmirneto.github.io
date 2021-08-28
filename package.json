@@ -16,6 +16,7 @@
     "@babel/preset-react": "^7.12.5",
     "babel-loader": "^8.2.1",
     "css-loader": "^6.2.0",
+    "generate-json-webpack-plugin": "^2.0.0",
     "html-webpack-plugin": "^4.5.0",
     "mini-css-extract-plugin": "^2.2.0",
     "node-sass": "^6.0.1",

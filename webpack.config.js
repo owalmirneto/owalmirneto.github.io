@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const JsonWebpackPlugin = require('generate-json-webpack-plugin');
+const jobs = require('./src/data/jobs.json');
 
 module.exports = {
   entry: './src/main.js',
@@ -27,6 +29,7 @@ module.exports = {
     new HtmlWebpackPlugin({  // Also generate a test.html
       filename: 'index.html',
       template: 'src/layouts/main.html'
-    })
+    }),
+    new JsonWebpackPlugin('jobs.json', jobs),
   ]
 }

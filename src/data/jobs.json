@@ -1,0 +1,102 @@
+[
+  {
+    "id":"interage",
+    "title":"Software Developer & Tech Lead",
+    "company":{
+      "name":"Interage Agile Software House",
+      "site":"http://interage.in"
+    },
+    "stack":[
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Redis",
+      "Heroku",
+      "S3",
+      "NginX",
+      "Azure"
+    ],
+    "startDate":"2017-10-01",
+    "finishDate":null,
+    "current":true,
+    "description":"Bacon ipsum dolor amet filet mignon spare ribs alcatra burgdoggen boudin cupim bacon frankfurter chuck capicola tenderloin bresaola shoulder. Landjaeger pork pork chop bacon shoulder hamburger, filet mignon buffalo tongue chuck. Meatball prosciutto pig tri-tip. Tri-tip fatback corned beef pastrami turducken, buffalo drumstick filet mignon sirloin meatloaf salami cow. Rump shoulder fatback bresaola hamburger ham hock spare ribs chicken tongue turducken short loin."
+  },
+  {
+    "id":"comunikapp",
+    "title":"Software Developer",
+    "company":{
+      "name":"Comunika - Comunicação Escolar",
+      "site":"https://comunikapp.com"
+    },
+    "stack":[
+      "Ruby on Rails",
+      "PostgreSQL",
+      "Redis",
+      "Linode",
+      "NginX",
+      "S3"
+    ],
+    "startDate":"2016-06-01",
+    "finishDate":"2017-12-01",
+    "current":false,
+    "description":"Beef ribs sausage doner beef shankle strip steak buffalo porchetta andouille leberkas meatloaf alcatra chicken ham hock. Venison pancetta pork belly, pork chop meatball strip steak salami spare ribs frankfurter. Drumstick beef tail ball tip, flank porchetta capicola pancetta meatball turducken venison ham chislic beef ribs biltong. Brisket pork chop corned beef chicken biltong pork loin turducken."
+  },
+  {
+    "id":"idealizza",
+    "title":"Software Developer",
+    "company":{
+      "name":"Idealizza",
+      "site":"https://idealizza.com.br"
+    },
+    "stack":[
+      "PHP",
+      "MySQL",
+      "CakePHP",
+      "jQuery",
+      "HTML5",
+      "CSS3"
+    ],
+    "startDate":"2017-04-01",
+    "finishDate":"2017-10-30",
+    "current":false,
+    "description":"Filet mignon pancetta jerky, drumstick kielbasa leberkas pastrami kevin flank ham shoulder. Landjaeger jowl sirloin rump, fatback shankle frankfurter kevin turducken tri-tip pig biltong meatball flank shoulder. Buffalo beef tail, sirloin drumstick turducken doner ham hock bacon pork chop cupim tenderloin prosciutto venison. Swine biltong turducken capicola turkey shoulder tongue ham. Tri-tip andouille cupim leberkas, pork chop picanha drumstick swine chuck sausage pastrami ball tip ribeye hamburger."
+  },
+  {
+    "id":"tisstech",
+    "title":"Software Developer",
+    "company":{
+      "name":"TissTech",
+      "site":null
+    },
+    "stack":[
+      "PHP",
+      "MySQL",
+      "Laravel",
+      "jQuery",
+      "HTML",
+      "CSS"
+    ],
+    "startDate":"2014-07-01",
+    "finishDate":"2015-11-30",
+    "current":false,
+    "description":"Pork fatback shank, landjaeger filet mignon kielbasa jerky strip steak doner chuck pork loin ribeye. Corned beef strip steak cow turducken frankfurter pancetta pork belly ribeye hamburger landjaeger turkey pastrami meatball jerky. Sirloin picanha turkey, capicola biltong tail ground round pork belly bresaola cupim. Andouille beef shank, sirloin pig ball tip tri-tip corned beef. Shank kevin andouille frankfurter cupim. Meatloaf doner drumstick kielbasa tongue sausage shankle turkey picanha pancetta ribeye burgdoggen fatback tail frankfurter."
+  },
+  {
+    "id":"tisstech",
+    "title":"Software Developer",
+    "company":{
+      "name":"PIANOLAB Agência Digital",
+      "site":"http://pianolab.com.br"
+    },
+    "stack":[
+      "PHP",
+      "MySQL",
+      "jQuery",
+      "HTML",
+      "CSS"
+    ],
+    "startDate":"2011-08-01",
+    "finishDate":"2014-09-30",
+    "current":false,
+    "description":"Doner pastrami spare ribs kielbasa shank. Tri-tip landjaeger hamburger, jerky turducken venison shoulder flank. Biltong burgdoggen porchetta boudin sausage tail spare ribs landjaeger doner ribeye ham hock jerky rump bacon alcatra. Turkey boudin jerky beef ribs jowl pork belly, sirloin bacon chuck bresaola kevin pancetta. Pig hamburger turducken ground round shankle bacon spare ribs biltong jowl ham doner pork chop."
+  }
+]
