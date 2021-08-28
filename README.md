@@ -1,1 +1,0 @@
-# owalmirneto.github.io
