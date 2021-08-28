@@ -4,10 +4,11 @@ const JsonWebpackPlugin = require('generate-json-webpack-plugin');
 const jobs = require('./src/data/jobs.json');
 
 module.exports = {
+  mode: 'production',
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'docs'),
-    filename: 'main.js'
+    filename: '[name].bundle.js'
   },
   module: {
     rules: [
