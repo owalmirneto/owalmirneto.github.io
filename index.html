@@ -31,7 +31,7 @@
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
   <!-- Core theme CSS (includes Bootstrap) -->
-  <link href="/stylesheets/styles.css" rel="stylesheet">
+  <link href="/stylesheets/styled-bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -76,31 +76,32 @@
     <!-- About -->
     <section class="resume-section" id="about">
       <div class="resume-section-content">
-        <h1 class="mb-0">Hello, I'm Walmir!</h1>
-          <p class="lead mb-5">
-            <p>
-              I started my career in 2007 and I started studying using PHP and then
-              I was able to obtain my first Internship in 2009. I kept studying and
-              I switched between some internships from 2009 to 2011, then in 2012 I
-              ran into Ruby on Rails.
-            </p>
-
-            <p>
-              I liked it a lot because Ruby on Rails is simpler than PHP for some
-              things, that is my first impression of Ruby on Rails.
-            </p>
-
-            <p>
-              Now I have experience as TechLead and Fullstack Software Developer.
-              Working with Software as a Service (SaaS) using the web as a platform.
-              Also into Mobile Apps Development, Cloud Computing, Open Source
-              and New Technologies.
-            </p>
+        <h1 id="about-title" class="mb-0">{{ about.title }}</h1>
+        <p class="lead mb-5">
+          <p>
+            I started my career in 2007 and I started studying using PHP and then
+            I was able to obtain my first Internship in 2009. I kept studying and
+            I switched between some internships from 2009 to 2011, then in 2012 I
+            ran into Ruby on Rails.
           </p>
-          <div class="subheading mb-5">
+
+          <p>
+            I liked it a lot because Ruby on Rails is simpler than PHP for some
+            things, that is my first impression of Ruby on Rails.
+          </p>
+
+          <p>
+            Now I have experience as TechLead and Fullstack Software Developer.
+            Working with Software as a Service (SaaS) using the web as a platform.
+            Also into Mobile Apps Development, Cloud Computing, Open Source
+            and New Technologies.
+          </p>
+        </p>
+        <div class="subheading mb-5">
           Recife - PE · Brazil ·
           <a href="mailto:owalmirneto@gmail.com">owalmirneto@gmail.com</a>
         </div>
+
         <div class="social-icons">
           <a class="social-icon" href="https://linkedin.com/in/owalmirneto">
             <i class="fab fa-linkedin-in"></i>
@@ -346,7 +347,9 @@
 
   <!-- Bootstrap core JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
   <!-- Core theme JS -->
   <script src="/javascripts/scripts.js"></script>
+  <script src="/javascripts/about_controller.js"></script>
 </body>
 </html>
