@@ -21,3 +21,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
   });
 });
+
+$(function () {
+  $('.image-skills img').tooltip()
+})
