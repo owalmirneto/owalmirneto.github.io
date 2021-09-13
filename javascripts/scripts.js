@@ -23,5 +23,5 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 $(function () {
-  $('.image-skills img').tooltip()
+  $('.image-skills img, .social-icons .social-icon').tooltip()
 })

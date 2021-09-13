@@ -10,22 +10,27 @@
   ],
   "contacts": [
     {
+      "name": "LinkedIn",
       "icon": "fab fa-linkedin-in",
       "link": "https://linkedin.com/in/owalmirneto"
     },
     {
+      "name": "GitHub",
       "icon": "fab fa-github",
       "link": "https://github.com/owalmirneto"
     },
     {
+      "name": "GitLab",
       "icon": "fab fa-gitlab",
       "link": "https://gitlab.com/owalmirneto"
     },
     {
+      "name": "Gmail",
       "icon": "far fa-envelope",
       "link": "mailto:owalmirneto@gmail.com"
     },
     {
+      "name": "Telegram",
       "icon": "fab fa-telegram-plane",
       "link": "https://t.me/owalmirneto"
     }
