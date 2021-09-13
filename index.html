@@ -34,14 +34,14 @@
   <link href="/stylesheets/styled-bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body id="walmir">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <a class="navbar-brand js-scroll-trigger" href="#walmir">
       <span class="d-block d-lg-none">@owalmirneto</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-          src="/images/walmir.png" alt="walmir">
+          src="/images/walmir.png" alt="Walmir Neto">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -61,10 +61,11 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
+        <!--
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li> -->
       </ul>
@@ -74,165 +75,88 @@
   <!-- Page Content -->
   <div class="container-fluid p-0">
     <!-- About -->
-    <section class="resume-section" id="about">
+    <section id="about" class="resume-section">
       <div class="resume-section-content">
         <h1 id="about-title" class="mb-0">{{ about.title }}</h1>
         <p class="lead mb-5">
-          <p>
-            I started my career in 2007 and I started studying using PHP and then
-            I was able to obtain my first Internship in 2009. I kept studying and
-            I switched between some internships from 2009 to 2011, then in 2012 I
-            ran into Ruby on Rails.
-          </p>
-
-          <p>
-            I liked it a lot because Ruby on Rails is simpler than PHP for some
-            things, that is my first impression of Ruby on Rails.
-          </p>
-
-          <p>
-            Now I have experience as TechLead and Fullstack Software Developer.
-            Working with Software as a Service (SaaS) using the web as a platform.
-            Also into Mobile Apps Development, Cloud Computing, Open Source
-            and New Technologies.
-          </p>
+          <div class="mb-3" v-for="item in about.items">{{ item }}</div>
         </p>
+
         <div class="subheading mb-5">
-          Recife - PE · Brazil ·
-          <a href="mailto:owalmirneto@gmail.com">owalmirneto@gmail.com</a>
+          {{ about.location }} · {{ about.country }} ·
+          <a v-bind:href="'mailto:' + about.email">{{ about.email }}</a>
         </div>
 
         <div class="social-icons">
-          <a class="social-icon" href="https://linkedin.com/in/owalmirneto">
-            <i class="fab fa-linkedin-in"></i>
+          <a class="social-icon" v-bind:href="contact.link" v-for="contact in about.contacts">
+            <i v-bind:class="'' + contact.icon"></i>
           </a>
-          <a class="social-icon" href="https://github.com/owalmirneto">
-            <i class="fab fa-github"></i>
-          </a>
-          <a class="social-icon" href="https://gitlab.com/owalmirneto">
-            <i class="fab fa-gitlab"></i>
-          </a>
-          </a>
-          <a class="social-icon" href="mailto:owalmirneto@gmail.com">
-            <i class="fa fa-envelope"></i>
-          </a>
-          </a>
-          <a class="social-icon" href="https://t.me/owalmirneto">
-            <i class="fab fa-telegram"></i>
-          </a>
-          <!-- <a class="social-icon" href="https://twitter.com/owalmirneto">
-            <i class="fab fa-twitter"></i>
-          </a> -->
         </div>
       </div>
     </section>
     <hr class="m-0">
+    <!-- /About -->
 
     <!-- Experience -->
-    <section class="resume-section" id="experience">
+    <section id="experience" class="resume-section">
       <div class="resume-section-content">
         <h2 class="mb-5">Experience</h2>
-        <!-- Interage -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">TechLead and Fullstack Software Developer</h3>
 
-            <div class="subheading mb-3">
-              Interage · agile software house
-              <a href="http://www.interage.in" target="blank">
-                <i class="fa fa-external-link-alt"></i>
-              </a>
+        <div v-for="job in experience.jobs">
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">{{ job.title }}</h3>
+
+              <div class="subheading mb-3">
+                {{ job.company.name }}
+                <a v-bind:href="job.company.site" target="blank">
+                  <i class="fa fa-external-link-alt"></i>
+                </a>
+              </div>
+
+              <p>{{ job.description }}</p>
             </div>
-            <p>
-              I'm a TechLead and Fullstack Software Developer at Interage,
-              our main stack consists of ruby on rails, postgres as main database
-              but we also use Sidekiq and Redis a lot for background jobs and other
-              secondary tasks.
-            </p>
-          </div>
-          <div class="flex-shrink-0"><span class="text-primary">October 2017 - Present</span></div>
-        </div>
-
-        <!-- Comunika -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Fullstack Software Developer</h3>
-            <div class="subheading mb-3">
-              Comunika · Comunicação Escolar
-              <a href="https://comunikapp.com" target="blank">
-                <i class="fa fa-external-link-alt"></i>
-              </a>
+            <div class="flex-shrink-0">
+              <span class="text-primary">
+                {{ job.startedAt }} · {{ job.finishedAt }}
+              </span>
             </div>
-
-            <p>
-              I am responsible for the API that serves the Web APP, Android and
-              IOS apps, the platform used by schools to communicate with those
-              responsible for students and the webapp used by those responsible,
-              as well as the Android and IOS apps.
-            </p>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">June 2016 - December 2017</span>
-          </div>
-        </div>
-
-        <!-- Idealizza -->
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Fullstack Software Developer</h3>
-
-            <div class="subheading mb-3">
-              Idealizza
-              <a href="https://idealizza.com.br" target="blank">
-                <i class="fa fa-external-link-alt"></i>
-              </a>
-            </div>
-
-            <p>
-              At Idealizza, I developed web applications using HTML5, CSS3,
-              jQuery, CakePHP, MySQL, DigitalOcean
-            </p>
-          </div>
-          <div class="flex-shrink-0">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
-        </div>
-
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">Software Developer</h3>
-            <div class="subheading mb-3">Tisstech</div>
-            <p>
-              Web applications using Laravel, Git, MySQL e Jquery
-            </p>
-          </div>
-
-          <div class="flex-shrink-0">
-            <span class="text-primary">July 2014 - November 2015</span>
           </div>
         </div>
       </div>
     </section>
     <hr class="m-0">
+    <!-- /Experience -->
+
     <!-- Education -->
-    <section class="resume-section" id="education">
+    <section id="education" class="resume-section">
       <div class="resume-section-content">
         <h2 class="mb-5">Education</h2>
-        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-            <h3 class="mb-0">ECPIE – Leiaut</h3>
-            <div class="subheading mb-3">Information systems technician</div>
-            <div>Computer Science - Web Development Track</div>
-          </div>
+        <div v-for="course in education.courses">
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+              <h3 class="mb-0">{{ course.school.name }}</h3>
+              <div class="subheading">{{ course.title }}</div>
+              <div>{{ course.subtitle }}</div>
+              <a v-bind:href="course.school.site" class="mb-3" target="blank">
+                {{ course.school.site }}
+              </a>
+            </div>
 
-          <div class="flex-shrink-0"><span class="text-primary">April 2007 - May 2010</span></div>
+            <div class="flex-shrink-0">
+              <span class="text-primary">
+                {{ course.startedAt }} - {{ course.finishedAt }}
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <hr class="m-0">
+    <!-- /Education -->
 
     <!-- Skills -->
-    <section class="resume-section" id="skills">
+    <section id="skills" class="resume-section">
       <div class="resume-section-content">
         <h2 class="mb-5">Skills</h2>
         <div class="subheading mb-3">Programming Languages & Tools</div>
@@ -283,9 +207,10 @@
       </div>
     </section>
     <hr class="m-0">
+    <!-- /Skills -->
 
     <!-- Interests -->
-    <section class="resume-section" id="interests">
+    <!-- <section id="interests" class="resume-section">
       <div class="resume-section-content">
         <h2 class="mb-">Interests</h2>
         <ul>
@@ -295,7 +220,8 @@
         </ul>
       </div>
     </section>
-    <hr class="m-0">
+    <hr class="m-0">-->
+    <!-- /Interests -->
 
     <!-- Awards -->
     <!-- <section class="resume-section" id="awards">
@@ -343,13 +269,22 @@
         </ul>
       </div>
     </section> -->
+    <!-- /Awards -->
   </div>
 
   <!-- Bootstrap core JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- VueJS -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <!-- jQuery 3.6.0 -->
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
   <!-- Core theme JS -->
   <script src="/javascripts/scripts.js"></script>
   <script src="/javascripts/about_controller.js"></script>
+  <script src="/javascripts/experience_controller.js"></script>
+  <script src="/javascripts/education_controller.js"></script>
 </body>
 </html>

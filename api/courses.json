@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "title": "Information systems technician",
+      "subtitle": "Computer Science - Web Development Track",
+      "startedAt": "April 2007",
+      "finishedAt": "May 2010",
+      "school": {
+        "name": "ECPIE · Leiaut",
+        "site": "https://leiaut.com.br"
+      }
+    },
+    {
+      "title": "PHP Developer",
+      "subtitle": null,
+      "startedAt": "June 2010",
+      "finishedAt": "September 2010",
+      "school": {
+        "name": "Especializa treinamentos",
+        "site": "https://especializa.com.br"
+      }
+    }
+  ]
+}

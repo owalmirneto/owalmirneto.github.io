@@ -1,8 +1,3 @@
-new Vue({
-  el: '#about-title',
-  data: {
-    about: {
-      title: "Hello, I'm Walmir Neto!"
-    }
-  }
-})
+$.get('/api/about.json', function (response) {
+  new Vue({ el: '#about', data: { about: response } });
+});

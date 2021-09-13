@@ -1,0 +1,54 @@
+{
+  "jobs": [
+    {
+      "title": "TechLead and Fullstack Software Developer",
+      "startedAt": "October 2017",
+      "finishedAt": null,
+      "description": "I'm a TechLead and Fullstack Software Developer at Interage, our main stack consists of ruby on rails, postgres as main database but we also use Sidekiq and Redis a lot for background jobs and other secondary tasks.",
+      "company": {
+        "name": "Interage · agile software house",
+        "site": "http://www.interage.in"
+      }
+    },
+    {
+      "title": "Fullstack Software Developer",
+      "startedAt": "June 2016",
+      "finishedAt": "December 2017",
+      "description": "I am responsible for the API that serves the Web APP, Android and IOS apps, the platform used by schools to communicate with those responsible for students and the webapp used by those responsible, as well as the Android and IOS apps.",
+      "company": {
+        "name": "Comunika · Comunicação Escolar",
+        "site": "https://comunikapp.com"
+      }
+    },
+    {
+      "title": "Fullstack Software Developer",
+      "startedAt": "July 2017",
+      "finishedAt": "December 2017",
+      "description": "At Idealizza, I developed web applications using HTML5, CSS3, jQuery, CakePHP, MySQL, DigitalOcean.",
+      "company": {
+        "name": "Idealizza",
+        "site": "http://idealizza.com.br"
+      }
+    },
+    {
+      "title": "Software Developer",
+      "startedAt": "July 2014",
+      "finishedAt": "November 2015",
+      "description": "Web applications using Laravel, Git, MySQL e Jquery.",
+      "company": {
+        "name": "Tisstech",
+        "site": null
+      }
+    },
+    {
+      "title": "Software Developer",
+      "startedAt": "August 2011",
+      "finishedAt": "September 2014",
+      "description": "Web applications using a framework in PHP following the MVC pattern for the company to use in your projects.",
+      "company": {
+        "name": "PIANOLAB Agência Digital",
+        "site": "http://pianolab.com.br"
+      }
+    }
+  ]
+}
