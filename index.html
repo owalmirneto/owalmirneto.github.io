@@ -108,18 +108,23 @@
         <h2 class="mb-5">Experience</h2>
 
         <div v-for="job in experience.jobs">
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
             <div class="flex-grow-1">
-              <h3 class="mb-0">{{ job.title }}</h3>
-
-              <div class="subheading mb-3">
-                {{ job.company.name }}
-                <a v-bind:href="job.company.site" target="blank">
-                  <i class="fa fa-external-link-alt"></i>
-                </a>
+              <div class="float-start image-companies">
+                <img class="rounded" v-bind:src="job.company.avatar">
               </div>
 
-              <p>{{ job.description }}</p>
+              <div class="float-none mb-2">
+                <h3 class="mb-0">{{ job.title }}</h3>
+                <div class="subheading">
+                  {{ job.company.name }}
+                  <a v-bind:href="job.company.site" target="blank">
+                    <i class="fa fa-external-link-alt"></i>
+                  </a>
+                </div>
+
+                <p class="float-none">{{ job.description }}</p>
+              </div>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">

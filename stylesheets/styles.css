@@ -4,3 +4,9 @@
   margin-right: 3px;
   margin-bottom: 5px;
 }
+
+.image-companies img {
+  width: 63px;
+  height: 63px;
+  margin-right: 10px;
+}
