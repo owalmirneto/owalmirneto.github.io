@@ -1,6 +1,7 @@
 {
   "courses": [
     {
+      "code": "leiaut",
       "title": "Information systems technician",
       "subtitle": "Computer Science - Web Development Track",
       "startedDate": "April 2007",
@@ -11,6 +12,7 @@
       }
     },
     {
+      "code": "especializa",
       "title": "PHP Developer",
       "subtitle": null,
       "startedDate": "June 2010",

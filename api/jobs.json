@@ -1,6 +1,7 @@
 {
   "jobs": [
     {
+      "code": "repassa",
       "title": "Fullstack Software Developer",
       "hireDate": "October 2021",
       "rescissionDate": "Current",
@@ -12,6 +13,7 @@
       }
     },
     {
+      "code": "interage",
       "title": "TechLead and Fullstack Software Developer",
       "hireDate": "October 2017",
       "rescissionDate": "September 2021",
@@ -23,6 +25,7 @@
       }
     },
     {
+      "code": "comunika",
       "title": "Fullstack Software Developer",
       "hireDate": "June 2016",
       "rescissionDate": "December 2017",
@@ -34,6 +37,7 @@
       }
     },
     {
+      "code": "idealizza",
       "title": "Fullstack Software Developer",
       "hireDate": "July 2017",
       "rescissionDate": "December 2017",
@@ -45,6 +49,7 @@
       }
     },
     {
+      "code": "tisstech",
       "title": "Software Developer",
       "hireDate": "July 2014",
       "rescissionDate": "November 2015",
@@ -56,6 +61,7 @@
       }
     },
     {
+      "code": "pianolab",
       "title": "Software Developer",
       "hireDate": "August 2011",
       "rescissionDate": "September 2014",

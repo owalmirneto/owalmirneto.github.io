@@ -10,26 +10,31 @@
   ],
   "contacts": [
     {
+      "code": "linkedin",
       "name": "LinkedIn",
       "icon": "fab fa-linkedin-in",
       "link": "https://linkedin.com/in/owalmirneto"
     },
     {
+      "code": "github",
       "name": "GitHub",
       "icon": "fab fa-github",
       "link": "https://github.com/owalmirneto"
     },
     {
+      "code": "gitlab",
       "name": "GitLab",
       "icon": "fab fa-gitlab",
       "link": "https://gitlab.com/owalmirneto"
     },
     {
+      "code": "gmail",
       "name": "Gmail",
       "icon": "far fa-envelope",
       "link": "mailto:owalmirneto@gmail.com"
     },
     {
+      "code": "telegram",
       "name": "Telegram",
       "icon": "fab fa-telegram-plane",
       "link": "https://t.me/owalmirneto"
