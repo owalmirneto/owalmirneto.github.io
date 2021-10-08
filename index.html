@@ -118,7 +118,10 @@
                 <h3 class="mb-0">{{ job.title }}</h3>
                 <div class="subheading">
                   {{ job.company.name }}
-                  <a v-bind:href="job.company.site" target="blank">
+                  <a
+                    v-if="job.company.site"
+                    v-bind:href="job.company.site"
+                    target="blank">
                     <i class="fa fa-external-link-alt"></i>
                   </a>
                 </div>
