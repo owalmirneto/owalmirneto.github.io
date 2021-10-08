@@ -1,6 +1,16 @@
 {
   "jobs": [
     {
+      "title": "Fullstack Software Developer",
+      "startedDate": "October 2021",
+      "finishedDate": "Current",
+      "description": "I'm a Fullstack Software Developer at Repassa",
+      "company": {
+        "name": "Repassa · Brechó Online das Melhores Marcas",
+        "site": "https://repassa.com.br"
+      }
+    },
+    {
       "title": "TechLead and Fullstack Software Developer",
       "startedDate": "October 2017",
       "finishedDate": "September 2021",
