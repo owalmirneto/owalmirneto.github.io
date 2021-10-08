@@ -2,8 +2,8 @@
   "jobs": [
     {
       "title": "Fullstack Software Developer",
-      "startedDate": "October 2021",
-      "finishedDate": "Current",
+      "hireDate": "October 2021",
+      "rescissionDate": "Current",
       "description": "I'm a Fullstack Software Developer at Repassa",
       "company": {
         "name": "Repassa · Brechó Online das Melhores Marcas",
@@ -13,8 +13,8 @@
     },
     {
       "title": "TechLead and Fullstack Software Developer",
-      "startedDate": "October 2017",
-      "finishedDate": "September 2021",
+      "hireDate": "October 2017",
+      "rescissionDate": "September 2021",
       "description": "I'm a TechLead and Fullstack Software Developer at Interage, our main stack consists of ruby on rails, postgres as main database but we also use Sidekiq and Redis a lot for background jobs and other secondary tasks.",
       "company": {
         "name": "Interage · agile software house",
@@ -24,8 +24,8 @@
     },
     {
       "title": "Fullstack Software Developer",
-      "startedDate": "June 2016",
-      "finishedDate": "December 2017",
+      "hireDate": "June 2016",
+      "rescissionDate": "December 2017",
       "description": "I am responsible for the API that serves the Web APP, Android and IOS apps, the platform used by schools to communicate with those responsible for students and the webapp used by those responsible, as well as the Android and IOS apps.",
       "company": {
         "name": "Comunika · Comunicação Escolar",
@@ -35,8 +35,8 @@
     },
     {
       "title": "Fullstack Software Developer",
-      "startedDate": "July 2017",
-      "finishedDate": "December 2017",
+      "hireDate": "July 2017",
+      "rescissionDate": "December 2017",
       "description": "At Idealizza, I developed web applications using HTML5, CSS3, jQuery, CakePHP, MySQL, DigitalOcean.",
       "company": {
         "name": "Idealizza",
@@ -46,8 +46,8 @@
     },
     {
       "title": "Software Developer",
-      "startedDate": "July 2014",
-      "finishedDate": "November 2015",
+      "hireDate": "July 2014",
+      "rescissionDate": "November 2015",
       "description": "Web applications using Laravel, Git, MySQL e Jquery.",
       "company": {
         "name": "Tisstech",
@@ -57,8 +57,8 @@
     },
     {
       "title": "Software Developer",
-      "startedDate": "August 2011",
-      "finishedDate": "September 2014",
+      "hireDate": "August 2011",
+      "rescissionDate": "September 2014",
       "description": "Web applications using a framework in PHP following the MVC pattern for the company to use in your projects.",
       "company": {
         "name": "PIANOLAB Agência Digital",
