@@ -1,10 +1,22 @@
 {
   "jobs": [
     {
+      "code": "ilove.me",
+      "title": "Fullstack Software Developer",
+      "hireDate": "July 2022",
+      "rescissionDate": "Current",
+      "description": "I'm a Fullstack Software Developer at ilove.me",
+      "company": {
+        "name": "ilove.me · Sistema fácil para Salões de Beleza, Clínicas e Spas",
+        "site": "https://ilove.me",
+        "avatar": "/images/companies/ilove.me.png"
+      }
+    },
+    {
       "code": "repassa",
       "title": "Fullstack Software Developer",
       "hireDate": "October 2021",
-      "rescissionDate": "Current",
+      "rescissionDate": "July 2022",
       "description": "I'm a Fullstack Software Developer at Repassa",
       "company": {
         "name": "Repassa · Brechó Online das Melhores Marcas",
