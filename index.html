@@ -54,7 +54,7 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -103,11 +103,11 @@
     <!-- /About -->
 
     <!-- Experience -->
-    <section id="experience" class="resume-section">
+    <section id="experiences" class="resume-section">
       <div class="resume-section-content">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Experiences</h2>
 
-        <div v-for="job in experience.jobs">
+        <div class="mb-5" v-for="job in jobs">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
             <div class="flex-grow-1">
               <div class="float-start image-companies">
@@ -116,7 +116,7 @@
 
               <div class="float-none mb-2">
                 <h3 class="mb-0">{{ job.title }}</h3>
-                <div class="subheading">
+                <div class="subheading mb-2">
                   {{ job.company.name }}
                   <a
                     v-if="job.company.site"
@@ -126,7 +126,11 @@
                   </a>
                 </div>
 
-                <p class="float-none">{{ job.description }}</p>
+                <div class="float-none">
+                  <div class="mb-2" v-for="description in job.description">
+                    {{ description }}
+                  </div>
+                </div>
               </div>
             </div>
             <div class="flex-shrink-0">
@@ -135,6 +139,7 @@
               </span>
             </div>
           </div>
+          <hr class="m-0">
         </div>
 
         <div class="wrapper-link-to-linkedin">
@@ -298,7 +303,7 @@
   <!-- Core theme JS -->
   <script src="/javascripts/scripts.js"></script>
   <script src="/javascripts/about_controller.js"></script>
-  <script src="/javascripts/experience_controller.js"></script>
+  <script src="/javascripts/experiences_controller.js"></script>
   <script src="/javascripts/education_controller.js"></script>
 </body>
 </html>
