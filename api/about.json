@@ -2,17 +2,18 @@
   "title": "Hello, I'm Walmir!",
   "location": "Recife - PE",
   "country": "Brazil",
-  "email": "owalmirneto@gmail.com",
+  "email": "hello@walmir.dev",
   "items": [
-    "I started my career in 2007 and I started studying using PHP and then I was able to obtain my first Internship in 2009. I kept studying and I switched between some internships from 2009 to 2011, then in 2012 I ran into Ruby on Rails.",
+    "I started my career in 2007 and I started studying using PHP and then I was able to obtain my first Internship in 2009. I kept studying and worked until 2012 when I ran into Ruby on Rails.",
     "I liked it a lot because Ruby on Rails is simpler than PHP for some things, that is my first impression of Ruby on Rails.",
-    "Now I have experience as TechLead and Fullstack Software Developer. Working with Software as a Service (SaaS) using the web as a platform. Also into Mobile Apps Development, Cloud Computing, Open Source and New Technologies."
+    "I kept studying Ruby on Rails until I got some jobs with Ruby on Rails and PHP. In 2016  I started to work for myself and had some difficulties, but it was at that time I started working for an app called 'ComunikApp' that would help with communication between the parents and school where I was responsible for the development of the platform, WebApp, and API that was consumed by Android APP, IOS APP, and WebApp.",
+    "At the middle of 2022 was when I started to work for my current job in ilove.me as a Fullstack Software Developer"
   ],
   "contacts": [
     {
       "code": "linkedin",
       "name": "LinkedIn",
-      "icon": "fab fa-linkedin-in",
+      "icon": "fab fa-linkedin",
       "link": "https://linkedin.com/in/owalmirneto"
     },
     {

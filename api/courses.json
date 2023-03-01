@@ -12,9 +12,31 @@
       }
     },
     {
+      "code": "ep",
+      "title": "General English Course ",
+      "subtitle": "📍London",
+      "startedDate": "September 2022",
+      "finishedDate": "October 2022",
+      "school": {
+        "name": "English Path",
+        "site": "https://englishpath.com/destination/ep-london"
+      }
+    },
+    {
+      "code": "ncg",
+      "title": "General English Course",
+      "subtitle": "📍Liverpool",
+      "startedDate": "October 2022",
+      "finishedDate": "November 2022",
+      "school": {
+        "name": "New College Group",
+        "site": "https://newcollegegroup.com/locations/liverpool"
+      }
+    },
+    {
       "code": "especializa",
       "title": "PHP Developer",
-      "subtitle": null,
+      "subtitle": "📍Recife",
       "startedDate": "June 2010",
       "finishedDate": "September 2010",
       "school": {

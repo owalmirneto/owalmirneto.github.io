@@ -5,7 +5,10 @@
       "title": "Fullstack Software Developer",
       "hireDate": "July 2022",
       "rescissionDate": "Current",
-      "description": "I'm a Fullstack Software Developer at ilove.me",
+      "description": [
+        "ilove.me is an ecosystem made for the beauty and aesthetics industry and my responsibilities here are to develop and maintain features including stocks, contracts, schedules, notifiers, etc..",
+        "ilove.me stack is a compound Ruby on Rails and PostgreSQL as main database. Ember.js in our frontend, Node.js and GoLang for some microservices. We use RabbitMQ to communicate between microservices. In Infrastructure we use Rancher management with Kubernetes and Okteto in our development environment"
+      ],
       "company": {
         "name": "ilove.me · Sistema fácil para Salões de Beleza, Clínicas e Spas",
         "site": "https://ilove.me",
@@ -17,7 +20,10 @@
       "title": "Fullstack Software Developer",
       "hireDate": "October 2021",
       "rescissionDate": "July 2022",
-      "description": "I'm a Fullstack Software Developer at Repassa",
+      "description": [
+        "Repassa is the largest online thrift store in Brazil, my responsibilities here were to develop and maintain features including product stock, sign up of users, and receiving clothes bags.",
+        "Repassa stack is a compound API developed with Ruby on Rails and PostgreSQL as the main database (Using GraphQL to serve). On frontend is used by Next.js to consume GraphQL API. We use RabbitMQ to communicate between microservices. In Infrastructure we use Rancher management with Kubernetes"
+      ],
       "company": {
         "name": "Repassa · Brechó Online das Melhores Marcas",
         "site": "https://repassa.com.br",
@@ -29,7 +35,11 @@
       "title": "TechLead and Fullstack Software Developer",
       "hireDate": "October 2017",
       "rescissionDate": "September 2021",
-      "description": "I'm a TechLead and Fullstack Software Developer at Interage, our main stack consists of ruby on rails, postgres as main database but we also use Sidekiq and Redis a lot for background jobs and other secondary tasks.",
+      "description": [
+        "Interage is a software house, which since 2012 has been delivering benefits to its customers through projects of the most varied sectors and sizes, my responsibilities here were to gather requirements for some projects with customers and/or P.O. and define together with the team how we would develop each feature",
+        "My responsibilities here were to maintain and develop new features for each customer's applications",
+        "Stack: Ruby on Rails, PostgreSQL, Sidekiq, Redis, Node.js, React.js, Python, PHP, Heroku, Linode, AWS EC2, AWS S3"
+      ],
       "company": {
         "name": "Interage · agile software house",
         "site": "http://www.interage.in",
@@ -41,7 +51,9 @@
       "title": "Fullstack Software Developer",
       "hireDate": "June 2016",
       "rescissionDate": "December 2017",
-      "description": "I am responsible for the API that serves the Web APP, Android and IOS apps, the platform used by schools to communicate with those responsible for students and the webapp used by those responsible, as well as the Android and IOS apps.",
+      "description": [
+        "I am responsible for the API that serves the Web APP, Android and IOS apps, the platform used by schools to communicate with those responsible for students and the webapp used by those responsible, as well as the Android and IOS apps."
+      ],
       "company": {
         "name": "Comunika · Comunicação Escolar",
         "site": "https://comunikapp.com",
@@ -53,7 +65,9 @@
       "title": "Fullstack Software Developer",
       "hireDate": "July 2017",
       "rescissionDate": "December 2017",
-      "description": "At Idealizza, I developed web applications using HTML5, CSS3, jQuery, CakePHP, MySQL, DigitalOcean.",
+      "description": [
+        "At Idealizza, I developed web applications using HTML5, CSS3, jQuery, CakePHP, MySQL, DigitalOcean."
+      ],
       "company": {
         "name": "Idealizza",
         "site": "http://idealizza.com.br",
@@ -65,7 +79,9 @@
       "title": "Software Developer",
       "hireDate": "July 2014",
       "rescissionDate": "November 2015",
-      "description": "Web applications using Laravel, Git, MySQL e Jquery.",
+      "description": [
+        "Web applications using Laravel, Git, MySQL e Jquery."
+      ],
       "company": {
         "name": "Tisstech",
         "site": null,
@@ -77,7 +93,9 @@
       "title": "Software Developer",
       "hireDate": "August 2011",
       "rescissionDate": "September 2014",
-      "description": "Web applications using a framework in PHP following the MVC pattern for the company to use in your projects.",
+      "description": [
+        "Web applications using a framework in PHP following the MVC pattern for the company to use in your projects."
+      ],
       "company": {
         "name": "PIANOLAB Agência Digital",
         "site": "http://pianolab.com.br",

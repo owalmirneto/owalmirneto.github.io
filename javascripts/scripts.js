@@ -21,7 +21,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
   });
 });
-
-$(function () {
-  $('.image-skills img, .social-icons .social-icon').tooltip()
-})

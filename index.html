@@ -54,7 +54,7 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
@@ -93,8 +93,11 @@
             class="social-icon"
             v-bind:href="contact.link"
             v-bind:title="contact.name"
-            v-for="contact in about.contacts">
+            v-for="contact in contacts">
             <i v-bind:class="contact.icon"></i>
+          </a>
+          <a class="social-icon" download href="/documents/resume.pdf" title="CV">
+            <i class="fa fa-download"></i>
           </a>
         </div>
       </div>
@@ -103,11 +106,11 @@
     <!-- /About -->
 
     <!-- Experience -->
-    <section id="experience" class="resume-section">
+    <section id="experiences" class="resume-section">
       <div class="resume-section-content">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Experiences</h2>
 
-        <div v-for="job in experience.jobs">
+        <div class="mb-5" v-for="job in jobs">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
             <div class="flex-grow-1">
               <div class="float-start image-companies">
@@ -116,7 +119,7 @@
 
               <div class="float-none mb-2">
                 <h3 class="mb-0">{{ job.title }}</h3>
-                <div class="subheading">
+                <div class="subheading mb-2">
                   {{ job.company.name }}
                   <a
                     v-if="job.company.site"
@@ -126,7 +129,11 @@
                   </a>
                 </div>
 
-                <p class="float-none">{{ job.description }}</p>
+                <div class="float-none">
+                  <div class="mb-2" v-for="description in job.description">
+                    {{ description }}
+                  </div>
+                </div>
               </div>
             </div>
             <div class="flex-shrink-0">
@@ -135,6 +142,7 @@
               </span>
             </div>
           </div>
+          <hr class="m-0">
         </div>
 
         <div class="wrapper-link-to-linkedin">
@@ -179,29 +187,39 @@
     <section id="skills" class="resume-section">
       <div class="resume-section-content">
         <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3">Programming Languages & Tools</div>
 
         <div class="image-skills mb-3">
-          <img class="img-thumbnail" src="/images/skills/rails.png" alt="Ruby on Rails" title="Ruby on Rails">
-          <img class="img-thumbnail" src="/images/skills/postgresql.png" alt="PostgreSQL" title="PostgreSQL">
-          <img class="img-thumbnail" src="/images/skills/sidekiq.png" alt="Sidekiq" title="Sidekiq">
-          <img class="img-thumbnail" src="/images/skills/redis.png" alt="Redis" title="Redis">
-          <img class="img-thumbnail" src="/images/skills/aws-s3.png" alt="AWS S3" title="AWS S3">
-          <img class="img-thumbnail" src="/images/skills/digital-ocean.png" alt="DigitalOcean" title="DigitalOcean">
-          <img class="img-thumbnail" src="/images/skills/linode.png" alt="Linode" title="Linode">
-          <img class="img-thumbnail" src="/images/skills/yarn.png" alt="yarn" title="yarn">
-          <img class="img-thumbnail" src="/images/skills/html5.png" alt="html5" title="html5">
-          <img class="img-thumbnail" src="/images/skills/css3.png" alt="css3" title="css3">
-          <img class="img-thumbnail" src="/images/skills/js.png" alt="js" title="js">
-          <img class="img-thumbnail" src="/images/skills/node.png" alt="node" title="node">
-          <img class="img-thumbnail" src="/images/skills/sass.png" alt="sass" title="sass">
-          <img class="img-thumbnail" src="/images/skills/php.png" alt="PHP" title="PHP">
-          <img class="img-thumbnail" src="/images/skills/mysql.png" alt="MySQL" title="MySQL">
-          <img class="img-thumbnail" src="/images/skills/jquery.png" alt="jquery" title="jquery">
-          <img class="img-thumbnail" src="/images/skills/react.png" alt="react" title="react">
-          <img class="img-thumbnail" src="/images/skills/laravel.png" alt="Laravel" title="Laravel">
-          <img class="img-thumbnail" src="/images/skills/cakephp.png" alt="CakePHP" title="CakePHP">
+          <div v-for="skill in skills">
+            <div v-if="skill.title !== null" class="subheading mt-3 mb-1">
+              {{ skill.title }}
+            </div>
+            <img
+              v-for="image in skill.images"
+              class="img-thumbnail"
+              v-bind:src="'images/skills/' + image.filename + '.png'"
+              v-bind:title="image.title"
+              v-bind:alt="image.title"
+              >
+          </div>
         </div>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Mobile-First, Responsive Design
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Cross Browser Testing & Debugging
+          </li>
+          <li>
+            <span class="fa-li"><i class="fas fa-check"></i></span>
+            Agile Development & Scrum
+          </li>
+        </ul>
+      </div>
+    </section>
 
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
@@ -298,7 +316,8 @@
   <!-- Core theme JS -->
   <script src="/javascripts/scripts.js"></script>
   <script src="/javascripts/about_controller.js"></script>
-  <script src="/javascripts/experience_controller.js"></script>
+  <script src="/javascripts/experiences_controller.js"></script>
   <script src="/javascripts/education_controller.js"></script>
+  <script src="/javascripts/skills_controller.js"></script>
 </body>
 </html>
