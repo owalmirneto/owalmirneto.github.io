@@ -1,0 +1,69 @@
+
+{
+  "skills": [
+    {
+      "title": "Current",
+      "images": [
+        { "filename": "rspec", "title": "RSpec" },
+        { "filename": "rails", "title": "Ruby on Rails" },
+        { "filename": "postgresql", "title": "PostgreSQL" },
+        { "filename": "sidekiq", "title": "SideKiq" },
+        { "filename": "redis", "title": "Redis" },
+        { "filename": "cypress", "title": "Cypress.io" },
+        { "filename": "node", "title": "Node.js" },
+        { "filename": "go", "title": "Go Lang" },
+        { "filename": "rabbitmq", "title": "RabbitMQ" },
+        { "filename": "rancher", "title": "Rancher" },
+        { "filename": "okteto", "title": "Okteto" }
+      ]
+    },
+    {
+      "title": null,
+      "images": [
+        { "filename": "next.js", "title": "Next.js" },
+        { "filename": "ts", "title": "TypeScript" },
+        { "filename": "graphql", "title": "GraphQL" }
+      ]
+    },
+    {
+      "title": "Infrastructure",
+      "images": [
+        { "filename": "aws", "title": "Amazon Web Services" },
+        { "filename": "aws-ec2", "title": "AWS EC2" },
+        { "filename": "aws-s3", "title": "AWS S3" },
+        { "filename": "digital-ocean", "title": "DigitalOcean" },
+        { "filename": "linode", "title": "Linode" }
+      ]
+    },
+    {
+      "title": "Interests",
+      "images": [
+        { "filename": "kubernetes", "title": "Kubernetes" },
+        { "filename": "terraform", "title": "Terraform" },
+        { "filename": "ansible", "title": "Ansible" },
+        { "filename": "kafka", "title": "Kafka" },
+        { "filename": "grpc", "title": "gRPC" },
+        { "filename": "flutter", "title": "Flutter" },
+        { "filename": "nestjs", "title": "Nest.js" },
+        { "filename": "elasticsearch", "title": "Elastic Search" },
+        { "filename": "logstash", "title": "Logstash" },
+        { "filename": "kibana", "title": "Kibana" }
+      ]
+    },
+    {
+      "title": "Oldest",
+      "images": [
+        { "filename": "php", "title": "PHP" },
+        { "filename": "sass", "title": "SASS" },
+        { "filename": "mysql", "title": "MySQL" },
+        { "filename": "laravel", "title": "Laravel" },
+        { "filename": "cakephp", "title": "CakePHP" },
+        { "filename": "jquery", "title": "jQuery" },
+        { "filename": "react", "title": "React.js" },
+        { "filename": "js", "title": "JavaScript" },
+        { "filename": "html5", "title": "HTML5" },
+        { "filename": "css3", "title": "CSS3" }
+      ]
+    }
+  ]
+}
