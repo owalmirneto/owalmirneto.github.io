@@ -93,8 +93,11 @@
             class="social-icon"
             v-bind:href="contact.link"
             v-bind:title="contact.name"
-            v-for="contact in about.contacts">
+            v-for="contact in contacts">
             <i v-bind:class="contact.icon"></i>
+          </a>
+          <a class="social-icon" download href="/documents/resume.pdf" title="CV">
+            <i class="fa fa-download"></i>
           </a>
         </div>
       </div>
