@@ -28,6 +28,7 @@
   <!-- Font Awesome icons (free version) -->
   <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css">
   <!-- Core theme CSS (includes Bootstrap) -->
@@ -203,7 +204,7 @@
           </div>
         </div>
 
-        <div class="subheading mb-3">Workflow</div>
+        <!-- <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -217,7 +218,7 @@
             <span class="fa-li"><i class="fas fa-check"></i></span>
             Agile Development & Scrum
           </li>
-        </ul>
+        </ul> -->
       </div>
     </section>
     <hr class="m-0">
@@ -296,10 +297,10 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
   <!-- Core theme JS -->
-  <script src="/javascripts/scripts.js"></script>
-  <script src="/javascripts/about_controller.js"></script>
-  <script src="/javascripts/experiences_controller.js"></script>
-  <script src="/javascripts/education_controller.js"></script>
-  <script src="/javascripts/skills_controller.js"></script>
+  <script type="module">
+    import { App } from "./src/App.js?v=1"
+
+    App.start()
+  </script>
 </body>
 </html>
